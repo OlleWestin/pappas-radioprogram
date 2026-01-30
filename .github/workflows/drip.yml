@@ -1,0 +1,31 @@
+name: Drip feed
+
+on:
+  schedule:
+    - cron: "5 1 * * 0"   # Sundays 01:05 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  drip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate feed.xml
+        run: python scripts/drip.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add feed.xml state.json
+          git diff --staged --quiet || git commit -m "Drip: publish next episode"
+          git push
