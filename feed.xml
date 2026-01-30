@@ -9,7 +9,7 @@
   <itunes:author>Lars Westin</itunes:author>
   <itunes:explicit>false</itunes:explicit>
 
-  <itunes:image href="https://drive.google.com/uc?export=download&amp;id=1KNGrFP20bk5IWulwtJPfN3cOOVWYQgRk"/>
+  <itunes:image href="https://ollewestin.github.io/pappas-radioprogram/Pappas%20Radioprogram.png"/>
 
   <description><![CDATA[
 Privata radioprogram inspelade sommaren 2009. Jazzmusik och personliga reflektioner – bevarat för familjen.
@@ -24,7 +24,7 @@ Nytt avsnitt varje söndag morgon.
     <description><![CDATA[
 En kort introduktion till Pappas Radioprogram – radiominnen från sommaren 2009.
 ]]></description>
-    <enclosure url="https://drive.google.com/uc?export=download&amp;id=1Uyjai1-jW6DQ41WNP_vt9J-B6YveqHTI"
+    <enclosure url="https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1Uyjai1-jW6DQ41WNP_vt9J-B6YveqHTI"
                type="audio/mp4"
                length="0"/>
     <guid>pappas-radioprogram-trailer</guid>
