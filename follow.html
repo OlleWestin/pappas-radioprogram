@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Följ i Apple Podcasts</title>
+  <style>
+    body { font-family: -apple-system, system-ui, sans-serif; background:#fafafa; color:#222; margin:0; }
+    .wrap { max-width:560px; margin:0 auto; padding:28px 18px 44px; }
+    .card { background:#fff; border-radius:14px; padding:18px; box-shadow:0 6px 18px rgba(0,0,0,.06); }
+    h1 { font-size:1.4rem; margin:0 0 10px; }
+    p { margin:10px 0; color:#444; line-height:1.45; }
+    .btn { display:block; text-align:center; padding:14px 16px; border-radius:12px; text-decoration:none; font-weight:700; margin-top:14px; }
+    .primary { background:#7b1fa2; color:#fff; }
+    .secondary { background:#eee; color:#222; }
+    code { display:block; padding:12px; background:#f3f3f3; border-radius:10px; word-break:break-all; }
+    .small { font-size:.92rem; color:#666; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Följ “Pappas Radioprogram”</h1>
+      <p><strong>Nytt avsnitt varje söndag morgon.</strong></p>
+
+      <p>Om du är på iPhone: tryck först på knappen nedan. Om den strular, följ instruktionen under.</p>
+
+      <a class="btn primary" href="pcast://ollewestin.github.io/pappas-radioprogram/feed.xml">
+        Försök öppna i Apple Podcasts
+      </a>
+
+      <p class="small">Om du får “Cannot Connect”:</p>
+      <ol class="small">
+        <li>Öppna Apple Podcasts</li>
+        <li>Gå till Bibliotek</li>
+        <li>Välj <strong>Följ ett program via URL</strong></li>
+        <li>Klistra in RSS-länken nedan</li>
+      </ol>
+
+      <code id="rss">https://ollewestin.github.io/pappas-radioprogram/feed.xml</code>
+
+      <a class="btn secondary" href="#" id="copy">Kopiera RSS-länk</a>
+
+      <p class="small">Tips: När du väl följer podden fungerar allt automatiskt efter det.</p>
+    </div>
+  </div>
+
+  <script>
+    const btn = document.getElementById('copy');
+    btn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      const txt = document.getElementById('rss').innerText.trim();
+      try {
+        await navigator.clipboard.writeText(txt);
+        btn.textContent = "Kopierad ✅";
+        setTimeout(() => btn.textContent = "Kopiera RSS-länk", 1800);
+      } catch {
+        // fallback: select text
+        alert("Kunde inte kopiera automatiskt. Markera och kopiera RSS-länken manuellt.");
+      }
+    });
+  </script>
+</body>
+</html>
