@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+
+<channel>
+  <title>Pappas Radioprogram</title>
+  <link>https://ollewestin.github.io/pappas-radioprogram/</link>
+  <language>sv</language>
+  <itunes:author>Lars Westin</itunes:author>
+  <itunes:explicit>false</itunes:explicit>
+
+  <itunes:image href="https://drive.google.com/uc?export=download&amp;id=1KNGrFP20bk5IWulwtJPfN3cOOVWYQgRk"/>
+
+  <description><![CDATA[
+Privata radioprogram inspelade sommaren 2009. Jazzmusik och personliga reflektioner – bevarat för familjen.
+
+Nytt avsnitt varje söndag morgon.
+]]></description>
+
+  <!-- TRAILER (ute nu) -->
+  <item>
+    <title>Trailer</title>
+    <itunes:episodeType>trailer</itunes:episodeType>
+    <description><![CDATA[
+En kort introduktion till Pappas Radioprogram – radiominnen från sommaren 2009.
+]]></description>
+    <enclosure url="https://drive.google.com/uc?export=download&amp;id=1Uyjai1-jW6DQ41WNP_vt9J-B6YveqHTI"
+               type="audio/mp4"
+               length="0"/>
+    <guid>pappas-radioprogram-trailer</guid>
+    <pubDate>Thu, 29 Jan 2026 07:00:00 GMT</pubDate>
+  </item>
+
+  <!-- AUTO_EPISODES_INSERT_HERE -->
+
+</channel>
+</rss>
