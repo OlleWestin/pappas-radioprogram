@@ -43,6 +43,18 @@ Pappa inleder den tionde säsongen av Summertime genom att "hissa flaggan" med e
     <pubDate>Sun, 01 Feb 2026 01:00:00 GMT</pubDate>
   </item>
 
+  <item>
+    <title>Avsnitt 2: Drömmar, stjärnor och Carmen McRae</title>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description><![CDATA[
+Ett program som kretsar kring drömmar och nattliga funderingar. Vi hör "Stella by Starlight" och Carmen McRae sjunger om chanslösa förälskelser i "Ghost of a Chance". Pappa bjuder även på "Street of Dreams" och låter Miles Davis ta plats innan Keith Jarrett tolkar "When I Fall in Love". En stämningsfull stund med melodier som dröjer sig kvar.
+]]></description>
+    <enclosure url="https://drive.google.com/uc?export=download&amp;id=1DMAECUJYe55sAmAfbo_u7i8WINnahONE"
+               type="audio/mp4" length="0"/>
+    <guid>pappas-radioprogram-2009-02</guid>
+    <pubDate>Sun, 08 Feb 2026 01:00:00 GMT</pubDate>
+  </item>
+
   <!-- AUTO_EPISODES_INSERT_HERE -->
 
 </channel>
