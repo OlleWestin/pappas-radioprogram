@@ -115,6 +115,18 @@ En resa mellan genrer där Wynton Marsalis trumpetspel möter Paul Simons låtsk
     <pubDate>Sun, 15 Mar 2026 01:00:00 GMT</pubDate>
   </item>
 
+  <item>
+    <title>Avsnitt 8: Ornette Coleman och Ellington sida vid sida</title>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description><![CDATA[
+Pappa ställer Ornette Colemans moderna toner mot Duke Ellingtons klassiska sväng. Vi får höra Johnny Hodges altsaxofon och den unika sångerskan Madeleine Peyroux tolka "Careless Love" och Bessie Smiths repertoar. Programmet rundas av med Chet Bakers vemodiga signaturmelodi "My Funny Valentine".
+]]></description>
+    <enclosure url="https://drive.google.com/uc?export=download&amp;id=1UDq2z5VYgXZnd_4SLG6xpb6KgfvFJccM"
+               type="audio/mp4" length="0"/>
+    <guid>pappas-radioprogram-2009-08</guid>
+    <pubDate>Sun, 22 Mar 2026 01:00:00 GMT</pubDate>
+  </item>
+
   <!-- AUTO_EPISODES_INSERT_HERE -->
 
 </channel>
